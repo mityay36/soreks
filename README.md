@@ -43,9 +43,19 @@ python3 -m pip install --upgrade pip
 ```
 pip install -r requirements.txt
 ```
-
+Создать файл с переменными окружения:
+```commandline
+touch .env
+```
+Добавить переменные окружения в проект:
+```commandline
+sudo nano .env
+```
+```
+COINCAP_API_TOKEN='{ваш токен}'
+TELEGRAM_TOKEN='{ваш токен}'
+```
 Запустить проект:
-
 ```
 python3 bot.py
 ```
